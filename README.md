@@ -3,7 +3,7 @@ How to import projects to IntelliJ:
 * un/comment module(s) in `settings.gradle` and change the path to match the submodule source directory
 * change the following entries in `build.gradle`
 ```gradle
-outputDir = new File("C:\\_minecraft\\1.15\\\\build\\out\\${project.name}")
+outputDir = new File("C:\\_minecraft\\1.15\\build\\out\\${project.name}")
 testOutputDir = new File("C:\\_minecraft\\1.15\\build\\out\\test\\${project.name}")
 
 buildDir = "C:\\_minecraft\\1.14.4\\build\\${project.name}"
