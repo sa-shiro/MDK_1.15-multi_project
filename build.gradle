@@ -14,7 +14,7 @@ subprojects {
     idea {
         module {
             inheritOutputDirs = false
-            outputDir = new File("C:\\_minecraft\\1.15\\\\build\\out\\${project.name}")
+            outputDir = new File("C:\\_minecraft\\1.15\\build\\out\\${project.name}")
             testOutputDir = new File("C:\\_minecraft\\1.15\\build\\out\\test\\${project.name}")
         }
     }
