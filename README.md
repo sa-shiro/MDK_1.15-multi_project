@@ -14,12 +14,11 @@ runs {
  }
 }
 ```
-`outputDir` output dir for compiled source files
-
-`buildDir` the build output location
-
+`outputDir` output dir for compiled source files\
+`buildDir` the build output location\
 `workingDirectory` the location of minecraft gamefiles
 
 ---
 # The following Projects are depending on this multi-project setup
-[The Compressed Blocks Mod](https://github.com/sa-shiro/Minecraft-Compressed-Blocks)
+[The Compressed Blocks Mod](https://github.com/sa-shiro/Minecraft-Compressed-Blocks)\
+[golib]() (WIP, not available yet)

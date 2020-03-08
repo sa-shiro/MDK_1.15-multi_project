@@ -1,7 +1,12 @@
 rootProject.name = 'MDK 1.15'
 
+def sourceDir = '..\\_source\\1.15\\'
+
 // setting the module name
 include ':compressedblocks'
+include ':golib'
+
 
 // setting the module path (..\\ or ../ means the parent directory)
-project(':compressedblocks').projectDir = new File(settingsDir, '..\\_source\\1.15\\compressedblocks')
+project(':compressedblocks').projectDir = new File(settingsDir, sourceDir + 'compressedblocks')
+project(':golib').projectDir = new File(settingsDir, sourceDir + 'golib')
